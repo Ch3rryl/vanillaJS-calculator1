@@ -1,0 +1,58 @@
+body {
+    background-color: pink;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.screen {
+background-color: black;
+color: white;
+font-size: 40px;
+padding: 2px;
+text-align: end;
+
+
+
+}
+
+.calculator {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.buttons {
+    width: 235px;
+ 
+}
+
+button {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 38px;;
+    width: 50px;
+    height: 50px;
+    border-radius: 7.5px;
+    margin: 2px;
+}
+
+#plus {
+    width: 225px;
+    font-size: 40px;
+    
+}
+
+#equals {
+    color: red;
+   
+}
+
+#clear {
+    font-size: 25px;
+    margin: 2px;
+    width: 100px;
+ 
+};
