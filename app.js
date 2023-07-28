@@ -13,16 +13,15 @@ function calculate(button) {
     if (value == "AC") {
         calculation = []
         screen.textContent = "."
-    }
+    } 
+
     // push pressed button numbers to an array
     calculation.push(value)
     // convert numbers in array to a string
     completeCalc = calculation.join('')
     // display string on caluclator screen
     screen.textContent = completeCalc
-};
+} 
+
    
-
-
-
-buttons.forEach(button => button.addEventListener('click',() => calculate(button)))
+buttons.forEach(button => button.addEventListener('click',() => calculate(button)));
